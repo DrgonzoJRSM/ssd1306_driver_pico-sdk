@@ -20,15 +20,15 @@
 	#include "photo.h"
 #endif
 
-#define SSD1306_WIDTH 128
-#define SSD1306_HEIGHT 64
+#define SSD1306_WIDTH			128
+#define SSD1306_HEIGHT			64
 
 //	Макросы для заливки и очистки фигуры
-#define ERASE false
-#define PAINT_OVER true
+#define ERASE					false
+#define PAINT_OVER				true
 //
-#define UPDATE_ON true
-#define UPDATE_OFF false
+#define UPDATE_ON				true
+#define UPDATE_OFF				false
 
 //	Для экономии памяти и простоты адрессации дисплей делится на 8 
 //	страниц - горизонтальных полос высотой 8 пикселей 
